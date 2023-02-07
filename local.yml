@@ -8,5 +8,5 @@
         update_cache: yes
       changed_when: false
 
-  tasls:
+  tasks:
     - include: tasks/packages.yml
