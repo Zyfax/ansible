@@ -9,6 +9,7 @@
       changed_when: false
 
   tasks:
+    - include: tasks/authorized_keys.yml
     - include: tasks/users.yml
     - include: tasks/cron.yml
     - include: tasks/packages.yml

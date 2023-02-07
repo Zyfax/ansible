@@ -1,0 +1,5 @@
+- name: Set authorized key for user root
+  authorized_key:
+    user: root
+    state: present
+    key: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJeHzd6g1UCTVPTkYa4m562G92ToGd4L1JbTb/QpsEvN jump"
