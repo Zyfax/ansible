@@ -1,0 +1,8 @@
+- name: Install htop
+  apt:
+    name: 
+      - htop
+      - nload
+      - tmux
+      - jq
+      - curl
