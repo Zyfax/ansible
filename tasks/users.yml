@@ -1,6 +1,7 @@
 - name: create ansible user
-  user: ansible
-  system: yes
+  user: 
+    name: ansible
+    system: yes
 
 - name: copy sudoers_ansible
   copy:
