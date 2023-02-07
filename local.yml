@@ -1,8 +1,13 @@
-- hosts: localhost
+- hosts: all
   connection: local
-  becon: true
+  become: true
 
   tasks:
   - name: Install htop
     apt:
-      name: htop
+      name: 
+        - htop
+        - nload
+        - tmux
+        - jq
+        - curl
