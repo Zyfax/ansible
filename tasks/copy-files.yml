@@ -1,0 +1,6 @@
+- name: copy .bashrc
+  copy:
+    src: files/bashrc
+    dest: /root/.bashrc
+    owner: root
+    group: root
